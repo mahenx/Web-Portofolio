@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E8E6E1;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #00BFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.welcome-section {
+    background-color: #00BFFF;
+    padding: 50px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.welcome-section h1 {
+    background-color: #00BFFF;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 25px;
+    font-size: 36px;
+    color: black;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+}
+
+.shoe-image {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .navbar a {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .welcome-section h1 {
+        font-size: 28px;
+    }
+
+    .welcome-section p {
+        font-size: 16px;
+    }
+}
